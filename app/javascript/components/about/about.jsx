@@ -3,9 +3,9 @@ import './about.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import background from 'images/index-background.jpg';
-import adopt from 'images/adopt.png';
-import pets from 'images/pets.JPG'
+import background from 'images/aboutbackground.jpg';
+import adopt from 'images/rescue.jpg';
+import pets from 'images/dogcat.jpg'
 
 const styles = {
   imageContainer: {
@@ -22,8 +22,15 @@ const styles = {
 
 const About = () => {
   return (
-  <div className="py-5 about">
-    <div className="container py-5">
+  <div className="py-5 about" style={styles.imageContainer}>
+    <div className="container py-5 mt-5">
+    <div className="row align-items-center mb-5">
+        <div className="col-lg-6"><i className="fa fa-leaf fa-2x mb-3 text-primary"></i>
+          <h2 className="display-4 text-white">About us</h2>
+          
+        </div>
+        
+      </div>
       <div className="row align-items-center mb-5">
         <div className="col-lg-6 order-2 order-lg-1"><i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
           <h2 className="display-6 text-white">What is The Cybele Project?</h2>
@@ -31,6 +38,7 @@ const About = () => {
         </div>
         <div className="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src={pets} alt="" className="img-fluid mb-4 mb-lg-0 pets"/></div>
       </div>
+
       <div className="row align-items-center">
         <div className="col-lg-5 px-5 mx-auto"><img src={adopt} alt="" className="img-fluid mb-4 mb-lg-0 adopt"/></div>
         <div className="col-lg-6"><i className="fa fa-leaf fa-2x mb-3 text-primary"></i>

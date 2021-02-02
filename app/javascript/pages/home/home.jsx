@@ -8,6 +8,8 @@ const HomePage = () => {
     <Fragment>
       <Hero />
       <About />
+      <Contact />
+      <Footer />
     </Fragment>
   );
 };
