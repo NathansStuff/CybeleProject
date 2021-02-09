@@ -1,9 +1,11 @@
 .new-animal-wrapper {
     z-index: 1;
+    background-color: rgb(0, 0, 0);
+    border: dashed 5px grey;
+    color:gray;   
 }
-
 .new-animal-form {
-    border-style: solid;
+    border-radius: 5px;
     margin: 20px;
     padding: 10px;
     display: flex;
@@ -20,7 +22,30 @@
     justify-content: space-between;
 }
 
+textarea{
+    max-width: 75%;
+}
+input{
+    width: 75%
+}
+
+button,
+input,
+textarea{
+    color:grey;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.closeButton{
+    background-color: rgba(222, 81, 65, 0.711);
+}
+
 .new-animal-field {
     margin: 10px;
     
+}
+
+#new-animal-submit{
+    background-color: white;
 }
