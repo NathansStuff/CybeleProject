@@ -15,7 +15,7 @@ body{
 
 .left-panel {
     z-index:2;
-    background-color: rgb(128, 135, 147);
+    background-color: gray;
     width: 20%;
     border-radius: 25px;
     margin-left: 10px;
@@ -39,7 +39,7 @@ body{
 }
 .right-panel{
     z-index:1;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 135, 147, 0.902)), to(rgba(222, 220, 222, 0.807)), color-stop(.99,#fffffff2)); 
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 135, 147, 0.313)), to(rgba(222, 220, 222, 0.485)), color-stop(.99,#ffffff73)); 
     width: 80%;
     border-radius: 20px;
     margin-right: 10px;
@@ -55,7 +55,7 @@ body{
     width: 10em;
     text-align: space-around;
 }
-#SearchBar{
+.searchBar{
     border-radius: 5px;
 }
 

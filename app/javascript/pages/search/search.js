@@ -145,7 +145,7 @@ const SearchPage = () => {
             Add New
           </button>
 
-          <input
+          <input className = "searchBar"
             type='search'
             placeholder='search animals'
             onChange={e => onChange(e)}
